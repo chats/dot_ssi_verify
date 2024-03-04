@@ -1,0 +1,50 @@
+name: aec_verifier_mobile
+description: "A new Flutter project."
+# The following line prevents the package from being accidentally published to
+# pub.dev using `flutter pub publish`. This is preferred for private packages.
+publish_to: "none" # Remove this line if you wish to publish to pub.dev
+
+version: 1.0.0+1
+
+environment:
+    sdk: ">=3.2.0 <4.0.0"
+
+dependencies:
+    flutter:
+        sdk: flutter
+
+    cupertino_icons: ^1.0.2
+    material_symbols_icons: ^4.2711.0
+    get: ^4.6.6
+    google_fonts: ^6.1.0
+    http: ^1.1.0
+    qr_code_scanner: ^1.0.1
+    web_socket_channel: ^2.4.0
+    flutter_launcher_icons: ^0.13.1
+
+dev_dependencies:
+    flutter_test:
+        sdk: flutter
+
+    flutter_lints: ^2.0.0
+
+flutter:
+    uses-material-design: true
+
+    assets:
+        - assets/images/
+
+    # fonts:
+    #   - family: Schyler
+    #     fonts:
+    #       - asset: fonts/Schyler-Regular.ttf
+    #       - asset: fonts/Schyler-Italic.ttf
+    #         style: italic
+    #   - family: Trajan Pro
+    #     fonts:
+    #       - asset: fonts/TrajanPro.ttf
+    #       - asset: fonts/TrajanPro_Bold.ttf
+    #         weight: 700
+    #
+    # For details regarding fonts from package dependencies,
+    # see https://flutter.dev/custom-fonts/#from-packages

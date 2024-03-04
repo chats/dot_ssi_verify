@@ -1,0 +1,6 @@
+flutter_launcher_icons:
+    android: true
+    ios: true
+    image_path: "assets/images/dot/dot-logo-500.png"
+    image_path_ios: "assets/images/dot/dot-logo-500-box.png"
+    remove_alpha_ios: true
